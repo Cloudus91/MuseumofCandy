@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap");
 
 :root {
   --color-background: hsl(7, 62%, 90%);
@@ -12,7 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lora", serif;
+  font-family: "ABeeZee", sans-serif;
   scroll-behavior: smooth;
   scroll-padding: 1rem 0 0 0;
 }
