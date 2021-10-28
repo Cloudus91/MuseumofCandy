@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap");
+
+:root {
+  --color-background: hsl(7, 62%, 90%);
+  --color-text-logo: hsl(0, 0%, 100%);
+  --color-text-primary: hsl(355, 83%, 51%);
+  --color-text-secondary: hsl(339, 81%, 78%);
+  --color-navbar-scroll: hsl(300, 31%, 81%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+  scroll-behavior: smooth;
+  scroll-padding: 1rem 0 0 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--color-navbar-scroll);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--color-text-secondary);
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+  color: var(--color-text-primary);
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+.blurb p {
+  color: var(--color-text-secondary);
+  font-weight: 100;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: var(--color-text-logo);
+}
+
+#mainNavbar .nav-link:hover {
+  color: var(--color-text-primary);
+}
+
+#mainNavbar .navbar-brand {
+  color: var(--color-text-primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#headingGroup span {
+  color: var(--color-text-primary);
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.navbar.scrolled {
+  background: var(--color-navbar-scroll);
+  transition: background 0.5s;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
